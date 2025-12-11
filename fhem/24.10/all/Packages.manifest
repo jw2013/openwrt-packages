@@ -3,8 +3,8 @@ Version: 6.4.29803-r1
 Depends: libc, perl, perlbase-essential, perlbase-storable, perlbase-io, perlbase-time, perlbase-scalar, perlbase-posix, perlbase-file, perlbase-list, perlbase-encode
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -12,21 +12,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 184320
 Filename: fhem-bin_6.4.29803-r1_all.ipk
-Size: 52462
-SHA256sum: 5efa36ba3248a3d6eaa936d4cd746f690fdd7dc8229ee9da42103aa07a399548
-Description:  FHEM (TM) is a GPL'd perl server for house automation.
- It is used to automate some common tasks in the household
- like switching lamps / shutters / heating / etc. and to
- log events like temperature / humidity / power consumption.
- This package contains the FHEM executable.
+Size: 52324
+SHA256sum: e92f4e22e7f38d75780781fc91c5b48e66078349c6ab452d44175fae505405f9
+Description:  FHEM client for house automation
 
 Package: fhem-color
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -34,8 +30,8 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-color_6.4.29803-r1_all.ipk
-Size: 4706
-SHA256sum: 76e9ed59c66b912299bb96a67e7ca4b87514a91b878168af6ccc246d208cb8da
+Size: 4715
+SHA256sum: 47c069a071b4e975a6559f2cbd1ffc57dccd79595345198c1742b2fa462518db
 Description:  FHEM::Color
 
 Package: fhem-lib-httpmod-utils
@@ -43,8 +39,8 @@ Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -52,8 +48,8 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-lib-httpmod-utils_6.4.29803-r1_all.ipk
-Size: 12116
-SHA256sum: 64d310a12f593d1e4dff45ed9a09e43e6c296c6dc33b69d0a6478609983a1822
+Size: 12119
+SHA256sum: 7326531a5c6d5cd5f3d4da31418b9613f5a70ad510993621b6556b37f5255b1d
 Description:  FHEM::HTTPMOD::Utils
 
 Package: fhem-lib-modbus-testutils
@@ -61,8 +57,8 @@ Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -70,8 +66,8 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-lib-modbus-testutils_6.4.29803-r1_all.ipk
-Size: 4454
-SHA256sum: 9285895d32ef222a5fb2bf7e7bfd8d75b8d25ede7525d1badb25749d5a2ec668
+Size: 4455
+SHA256sum: 8e6fb50ab75443a4df7daa602244a4ca90c07b385fa34fe2cf86b03676fefe66
 Description:  FHEM::Modbus::TestUtils
 
 Package: fhem-mod-doif
@@ -79,8 +75,8 @@ Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-color
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -88,17 +84,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 389120
 Filename: fhem-mod-doif_6.4.29803-r1_all.ipk
-Size: 82452
-SHA256sum: cf69b907506c459f0abddbfd70f212fc6a16717499cb17fcbbfafc72ba020668
-Description:  DOIF
+Size: 82463
+SHA256sum: b25059c38224ae2982817ee95f1bd562724ed571c005af66916e76d615d6f080
+Description:  FHEM Module DOIF
 
 Package: fhem-mod-fhemweb
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, perlbase-digest, fhem-theme-pgm2-default
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -106,17 +102,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 645120
 Filename: fhem-mod-fhemweb_6.4.29803-r1_all.ipk
-Size: 185040
-SHA256sum: a6a08fc551d9168afe428a7963ad8621abe34642033890dab3fcd146ae6a4209
-Description:  FHEMWEB
+Size: 185045
+SHA256sum: 87cd45771ffb1583a2b523653e10bb10187ea0b91e2f29615e766a81b16fa0cf
+Description:  FHEMWEB Service
 
 Package: fhem-mod-filelog
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -124,17 +120,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 71680
 Filename: fhem-mod-filelog_6.4.29803-r1_all.ipk
-Size: 21518
-SHA256sum: e51bc095d022709022e15824e1092e376076061eef4fb0e7ccc80034a83a8524
-Description:  FileLog
+Size: 21531
+SHA256sum: 6e9246286c92e59552002da31dc95056d83978437c6d13c135f9038053eed005
+Description:  FHEM Module FileLog
 
 Package: fhem-mod-help
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -142,17 +138,35 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 204800
 Filename: fhem-mod-help_6.4.29803-r1_all.ipk
-Size: 59115
-SHA256sum: 3f50f205854b46038c2ee63c168a52e09440db503472c17e445d14dd8b38c5a4
-Description:  help
+Size: 59133
+SHA256sum: ab74c9a4b907602ad4bd9aa5d64c3ded554fe6bdd8d63eed24c79bc048f4aced
+Description:  FHEM Command help
+
+Package: fhem-mod-jsonlist2
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+Source: /home/jens/GIT/openwrt-fhem/fhem
+SourceName: fhem
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
+Section: fhem
+SourceDateEpoch: 1744562312
+URL: https://fhem.de/
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: all
+Installed-Size: 10240
+Filename: fhem-mod-jsonlist2_6.4.29803-r1_all.ipk
+Size: 3105
+SHA256sum: 27119280cad078691c4d0efae0fe53be0d02db11ba3d5effbbabcaadfdbd6b32
+Description:  FHEM Command jsonlist2
 
 Package: fhem-mod-modbus
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-lib-httpmod-utils, perl-device-serialport
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -160,17 +174,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 286720
 Filename: fhem-mod-modbus_6.4.29803-r1_all.ipk
-Size: 66105
-SHA256sum: f84946f2b237c9899211d8535246b645e230df0c79fda5ddf73a31e5233f8dae
-Description:  Modbus
+Size: 66119
+SHA256sum: e194f4d4f4eba63ec72b595e9f1d8e40b0fb0810aa285bc36f50716a502ba3ce
+Description:  FHEM Module Modbus
 
 Package: fhem-mod-modbusattr
 Version: 6.4.29803-r1
 Depends: libc, fhem-service, fhem-mod-modbus
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -178,17 +192,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 81920
 Filename: fhem-mod-modbusattr_6.4.29803-r1_all.ipk
-Size: 17861
-SHA256sum: fb099666b26bb2795cb847234ed68ca2e46b994d5f107d2e872027face118165
-Description:  ModbusAttr
+Size: 17873
+SHA256sum: 90d4d8dfe2632bcf71adc29bed6baa495bf172ac2d9d1f1610006fec258c8822
+Description:  FHEM Module ModbusAttr
 
 Package: fhem-mod-obis
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -196,17 +210,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-mod-obis_6.4.29803-r1_all.ipk
-Size: 15361
-SHA256sum: 6e61e9493cd935199b7ba47d7a52ccf10a77756752df29da635f6d7f9b267384
-Description:  OBIS
+Size: 15377
+SHA256sum: 8a292cb7333e8b417a1c38977f739c33a7a4d3516e2b39a94fd410503e096c87
+Description:  FHEM Module OBIS
 
 Package: fhem-mod-telnet
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -214,17 +228,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 30720
 Filename: fhem-mod-telnet_6.4.29803-r1_all.ipk
-Size: 8185
-SHA256sum: 853e2218ba0f58b9b943919a870f356bb0a4e5ae02d05f22cf188c30a225bf6a
-Description:  telnet
+Size: 8200
+SHA256sum: 91aa89f682286ed4f4a463240318bd303d261c326f72f94f32dc4010b7f9d2e9
+Description:  FHEM Telnet Service
 
 Package: fhem-service
 Version: 6.4.29803-r1
 Depends: libc, fhem-bin
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 Require-User: fhem:fhem
 SourceDateEpoch: 1744562312
@@ -233,21 +247,17 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 174080
 Filename: fhem-service_6.4.29803-r1_all.ipk
-Size: 43940
-SHA256sum: 5fdf2c36313160e898dda021ec05293b16e31a010d225228e9a6b36f0fdb5e71
-Description:  FHEM (TM) is a GPL'd perl server for house automation.
- It is used to automate some common tasks in the household
- like switching lamps / shutters / heating / etc. and to
- log events like temperature / humidity / power consumption.
- This package installs FHEM as a service.
+Size: 43803
+SHA256sum: 22deea4c6d867f349dc26bdc0ada1717e069d5105f406869c30bd45a3a755d7a
+Description:  FHEM server for house automation
 
 Package: fhem-theme-pgm2-dark
 Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -255,8 +265,8 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-theme-pgm2-dark_6.4.29803-r1_all.ipk
-Size: 13902
-SHA256sum: 3301df2c66727893aa5a2a79d0c691b695b6157e3a56bced251c02f856048539
+Size: 13910
+SHA256sum: 677620848bf61f533477cbb566a52216672af4ffb294faf0be840365d4ef932c
 Description:  FHEMWEB Dark Theme
 
 Package: fhem-theme-pgm2-default
@@ -264,8 +274,8 @@ Version: 6.4.29803-r1
 Depends: libc, fhem-service
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
-License: GPL-2.0-only
-LicenseFiles: COPYING
+License: GPL-2.0-or-later
+LicenseFiles: docs/copyright
 Section: fhem
 SourceDateEpoch: 1744562312
 URL: https://fhem.de/
@@ -273,7 +283,7 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-theme-pgm2-default_6.4.29803-r1_all.ipk
-Size: 15606
-SHA256sum: 604ce74f6a3217212cf665f9910b02c09c2554b6d2f0080b97bfac6ff09db199
+Size: 15612
+SHA256sum: aeb6b0e84e09f4af258f57a23875b8d7979aaac8d8d2b6ced989a50199e26f51
 Description:  FHEMWEB Default Theme
 
