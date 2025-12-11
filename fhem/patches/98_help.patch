@@ -1,0 +1,31 @@
+--- a/FHEM/98_help.pm	2025-03-29 09:35:25.000000000 +0100
++++ b/FHEM/98_help.pm	2025-12-06 00:30:56.638946117 +0100
+@@ -3,7 +3,6 @@
+ package main;
+ use strict;
+ use warnings;
+-use Data::Dumper;
+ 
+ my $ret;
+ 
+@@ -159,7 +158,8 @@
+ }
+ 
+ sub cref_internals {
+-   my $mod = "./docs/commandref_frame.html";
++   my $modPath = AttrVal('global','modpath','.');
++   my $mod = "$modPath/docs/commandref_frame.html";
+    my $output = "";
+    my ($err,@text) = FileRead({FileName => $mod, ForceType => 'file'});
+    return $err if $err;
+@@ -200,7 +200,8 @@
+ 
+ sub cref_search_cmd {
+    my $skip = 1;
+-   my $mod = "./docs/commandref_frame.html";
++   my $modPath = AttrVal('global','modpath','.');
++   my $mod = "$modPath/docs/commandref_frame.html";
+    my ($err,@text) = FileRead({FileName => $mod, ForceType => 'file'});
+    return $err if $err;
+    foreach my $l (@text) {
+

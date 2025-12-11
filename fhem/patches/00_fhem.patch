@@ -1,0 +1,11 @@
+--- a/fhem.pl	2025-03-29 09:35:25.000000000 +0100
++++ b/fhem.pl	2025-12-08 18:30:47.963661092 +0100
+@@ -24,7 +24,6 @@
+ 
+ use strict;
+ use warnings;
+-use lib '.';
+ use IO::Socket;
+ use IO::Socket::INET;
+ use Time::HiRes qw(gettimeofday time);
+
