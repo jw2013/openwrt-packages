@@ -167,8 +167,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 174080
 Filename: fhem-service_6.4.29803-r1_all.ipk
-Size: 43916
-SHA256sum: 5c7f1b77db9ab88dedb9abd3712be8ab3be8ac53700ea73ed01ccad8edc2bb57
+Size: 43940
+SHA256sum: 5fdf2c36313160e898dda021ec05293b16e31a010d225228e9a6b36f0fdb5e71
 Description:  FHEM (TM) is a GPL'd perl server for house automation.
  It is used to automate some common tasks in the household
  like switching lamps / shutters / heating / etc. and to
