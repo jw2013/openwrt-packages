@@ -1,0 +1,203 @@
+Package: fhem-bin
+Version: 6.4.29803-r1
+Depends: libc, perl, perlbase-essential, perlbase-io, perlbase-time, perlbase-scalar, perlbase-posix, perlbase-file, perlbase-list, perlbase-encode
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 184320
+Filename: fhem-bin_6.4.29803-r1_all.ipk
+Size: 52455
+SHA256sum: 17465c3ae5449d9428fe35e4ce6918e7f1fe1e1d9dde5779a90a9669566ecf29
+Description:  FHEM (TM) is a GPL'd perl server for house automation.
+ It is used to automate some common tasks in the household
+ like switching lamps / shutters / heating / etc. and to
+ log events like temperature / humidity / power consumption.
+ This package contains the FHEM executable.
+
+Package: fhem-color
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 20480
+Filename: fhem-color_6.4.29803-r1_all.ipk
+Size: 4706
+SHA256sum: 76e9ed59c66b912299bb96a67e7ca4b87514a91b878168af6ccc246d208cb8da
+Description:  FHEM::Color
+
+Package: fhem-lib-httpmod-utils
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 51200
+Filename: fhem-lib-httpmod-utils_6.4.29803-r1_all.ipk
+Size: 12116
+SHA256sum: 64d310a12f593d1e4dff45ed9a09e43e6c296c6dc33b69d0a6478609983a1822
+Description:  FHEM::HTTPMOD::Utils
+
+Package: fhem-lib-modbus-testutils
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 20480
+Filename: fhem-lib-modbus-testutils_6.4.29803-r1_all.ipk
+Size: 4454
+SHA256sum: 9285895d32ef222a5fb2bf7e7bfd8d75b8d25ede7525d1badb25749d5a2ec668
+Description:  FHEM::Modbus::TestUtils
+
+Package: fhem-mod-doif
+Version: 6.4.29803-r1
+Depends: libc, fhem-service, fhem-color
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 389120
+Filename: fhem-mod-doif_6.4.29803-r1_all.ipk
+Size: 82452
+SHA256sum: cf69b907506c459f0abddbfd70f212fc6a16717499cb17fcbbfafc72ba020668
+Description:  DOIF
+
+Package: fhem-mod-fhemweb
+Version: 6.4.29803-r1
+Depends: libc, fhem-service, perlbase-digest, fhem-theme-pgm2-default
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 645120
+Filename: fhem-mod-fhemweb_6.4.29803-r1_all.ipk
+Size: 185040
+SHA256sum: a6a08fc551d9168afe428a7963ad8621abe34642033890dab3fcd146ae6a4209
+Description:  FHEMWEB
+
+Package: fhem-mod-filelog
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 71680
+Filename: fhem-mod-filelog_6.4.29803-r1_all.ipk
+Size: 21518
+SHA256sum: e51bc095d022709022e15824e1092e376076061eef4fb0e7ccc80034a83a8524
+Description:  FileLog
+
+Package: fhem-mod-help
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 204800
+Filename: fhem-mod-help_6.4.29803-r1_all.ipk
+Size: 59115
+SHA256sum: 3f50f205854b46038c2ee63c168a52e09440db503472c17e445d14dd8b38c5a4
+Description:  help
+
+Package: fhem-mod-modbus
+Version: 6.4.29803-r1
+Depends: libc, fhem-service, fhem-lib-httpmod-utils, perl-device-serialport
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 286720
+Filename: fhem-mod-modbus_6.4.29803-r1_all.ipk
+Size: 66105
+SHA256sum: f84946f2b237c9899211d8535246b645e230df0c79fda5ddf73a31e5233f8dae
+Description:  Modbus
+
+Package: fhem-mod-modbusattr
+Version: 6.4.29803-r1
+Depends: libc, fhem-service, fhem-mod-modbus
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 81920
+Filename: fhem-mod-modbusattr_6.4.29803-r1_all.ipk
+Size: 17861
+SHA256sum: fb099666b26bb2795cb847234ed68ca2e46b994d5f107d2e872027face118165
+Description:  ModbusAttr
+
+Package: fhem-mod-obis
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 51200
+Filename: fhem-mod-obis_6.4.29803-r1_all.ipk
+Size: 15361
+SHA256sum: 6e61e9493cd935199b7ba47d7a52ccf10a77756752df29da635f6d7f9b267384
+Description:  OBIS
+
+Package: fhem-mod-telnet
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 30720
+Filename: fhem-mod-telnet_6.4.29803-r1_all.ipk
+Size: 8185
+SHA256sum: 853e2218ba0f58b9b943919a870f356bb0a4e5ae02d05f22cf188c30a225bf6a
+Description:  telnet
+
+Package: fhem-service
+Version: 6.4.29803-r1
+Depends: libc, fhem-bin
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 174080
+Filename: fhem-service_6.4.29803-r1_all.ipk
+Size: 43916
+SHA256sum: 5c7f1b77db9ab88dedb9abd3712be8ab3be8ac53700ea73ed01ccad8edc2bb57
+Description:  FHEM (TM) is a GPL'd perl server for house automation.
+ It is used to automate some common tasks in the household
+ like switching lamps / shutters / heating / etc. and to
+ log events like temperature / humidity / power consumption.
+ This package installs FHEM as a service.
+
+Package: fhem-theme-pgm2-dark
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 51200
+Filename: fhem-theme-pgm2-dark_6.4.29803-r1_all.ipk
+Size: 13902
+SHA256sum: 3301df2c66727893aa5a2a79d0c691b695b6157e3a56bced251c02f856048539
+Description:  FHEMWEB Dark Theme
+
+Package: fhem-theme-pgm2-default
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-only
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 51200
+Filename: fhem-theme-pgm2-default_6.4.29803-r1_all.ipk
+Size: 15606
+SHA256sum: 604ce74f6a3217212cf665f9910b02c09c2554b6d2f0080b97bfac6ff09db199
+Description:  FHEMWEB Default Theme
+
