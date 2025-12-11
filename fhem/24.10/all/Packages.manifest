@@ -1,6 +1,6 @@
 Package: fhem-bin
 Version: 6.4.29803-r1
-Depends: libc, perl, perlbase-essential, perlbase-io, perlbase-time, perlbase-scalar, perlbase-posix, perlbase-file, perlbase-list, perlbase-encode
+Depends: libc, perl, perlbase-essential, perlbase-storable, perlbase-io, perlbase-time, perlbase-scalar, perlbase-posix, perlbase-file, perlbase-list, perlbase-encode
 Source: /home/jens/GIT/openwrt-fhem/fhem
 SourceName: fhem
 License: GPL-2.0-only
@@ -12,8 +12,8 @@ Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: all
 Installed-Size: 184320
 Filename: fhem-bin_6.4.29803-r1_all.ipk
-Size: 52455
-SHA256sum: 17465c3ae5449d9428fe35e4ce6918e7f1fe1e1d9dde5779a90a9669566ecf29
+Size: 52462
+SHA256sum: 5efa36ba3248a3d6eaa936d4cd746f690fdd7dc8229ee9da42103aa07a399548
 Description:  FHEM (TM) is a GPL'd perl server for house automation.
  It is used to automate some common tasks in the household
  like switching lamps / shutters / heating / etc. and to
