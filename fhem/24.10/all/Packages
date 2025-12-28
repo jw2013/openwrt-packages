@@ -7,8 +7,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 184320
 Filename: fhem-bin_6.4.29803-r1_all.ipk
-Size: 52324
-SHA256sum: e92f4e22e7f38d75780781fc91c5b48e66078349c6ab452d44175fae505405f9
+Size: 52332
+SHA256sum: 278153c7180f54a33ef79473440ca65c0e7b87a25a7102b88eaeb08b4f025608
 Description:  FHEM client for house automation
 
 Package: fhem-color
@@ -20,9 +20,48 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-color_6.4.29803-r1_all.ipk
-Size: 4715
-SHA256sum: 47c069a071b4e975a6559f2cbd1ffc57dccd79595345198c1742b2fa462518db
+Size: 4720
+SHA256sum: faef54dd3959480cfee71603a1811df899180c76ee2d3a883638fc54d9cf734d
 Description:  FHEM::Color
+
+Package: fhem-icons-base
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 112640
+Filename: fhem-icons-base_6.4.29803-r1_all.ipk
+Size: 15952
+SHA256sum: f0f8f7dcb43a53a07d0f8bf8ce6180c0ae886e4b0c8d2fe68530fefbe060ec40
+Description:  FHEM Base Icons
+
+Package: fhem-icons-fhemsvg
+Version: 6.4.29803-r1
+Depends: libc, fhem-service, fhem-icons-base
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 5294080
+Filename: fhem-icons-fhemsvg_6.4.29803-r1_all.ipk
+Size: 1093157
+SHA256sum: 2fddc881dc3e01dd5c17ae2abd4cb96982310dde8970aa4ed111452f029bce44
+Description:  FHEM SVG Icons
+
+Package: fhem-icons-openautomation
+Version: 6.4.29803-r1
+Depends: libc, fhem-service, fhem-icons-base
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 1802240
+Filename: fhem-icons-openautomation_6.4.29803-r1_all.ipk
+Size: 333698
+SHA256sum: 569ad10d204caf066e3ab5b7864808e7de6dc17a652e8c8eaff665d4c94cc673
+Description:  FHEM OpenAutomation Icons
 
 Package: fhem-lib-httpmod-utils
 Version: 6.4.29803-r1
@@ -33,8 +72,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-lib-httpmod-utils_6.4.29803-r1_all.ipk
-Size: 12119
-SHA256sum: 7326531a5c6d5cd5f3d4da31418b9613f5a70ad510993621b6556b37f5255b1d
+Size: 12128
+SHA256sum: 33e03ab6d976d7678c0275b3fce993e99adb9af54eb0a5f8cc39c0fedb385aa0
 Description:  FHEM::HTTPMOD::Utils
 
 Package: fhem-lib-modbus-testutils
@@ -46,9 +85,22 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 20480
 Filename: fhem-lib-modbus-testutils_6.4.29803-r1_all.ipk
-Size: 4455
-SHA256sum: 8e6fb50ab75443a4df7daa602244a4ca90c07b385fa34fe2cf86b03676fefe66
+Size: 4464
+SHA256sum: 632622c39f8ebd87ff9981b6a586b71b2cb9d56962ddda3dcc8be92e2c14f8cd
 Description:  FHEM::Modbus::TestUtils
+
+Package: fhem-mod-at
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 40960
+Filename: fhem-mod-at_6.4.29803-r1_all.ipk
+Size: 9969
+SHA256sum: 512005941c9d7e9040b3d745858ce2748bdce5e727311acb0a32f97e0c3fa454
+Description:  FHEM Module at
 
 Package: fhem-mod-doif
 Version: 6.4.29803-r1
@@ -59,8 +111,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 389120
 Filename: fhem-mod-doif_6.4.29803-r1_all.ipk
-Size: 82463
-SHA256sum: b25059c38224ae2982817ee95f1bd562724ed571c005af66916e76d615d6f080
+Size: 82468
+SHA256sum: 4bf0ab31516546ea010ecb08e8ae73e60eb49d3cb71df000525f36bee6290739
 Description:  FHEM Module DOIF
 
 Package: fhem-mod-fhemweb
@@ -72,8 +124,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 645120
 Filename: fhem-mod-fhemweb_6.4.29803-r1_all.ipk
-Size: 185045
-SHA256sum: 87cd45771ffb1583a2b523653e10bb10187ea0b91e2f29615e766a81b16fa0cf
+Size: 185056
+SHA256sum: cae5e6064e1aeeee3412cfd8477e56bf2821b8744c2a993614a8bd309b52f438
 Description:  FHEMWEB Service
 
 Package: fhem-mod-filelog
@@ -85,8 +137,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 71680
 Filename: fhem-mod-filelog_6.4.29803-r1_all.ipk
-Size: 21531
-SHA256sum: 6e9246286c92e59552002da31dc95056d83978437c6d13c135f9038053eed005
+Size: 21535
+SHA256sum: 5e3d0335d4ef6fa709ca9c81e299393e7959517ec811769e019da497ea02786e
 Description:  FHEM Module FileLog
 
 Package: fhem-mod-help
@@ -98,8 +150,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 204800
 Filename: fhem-mod-help_6.4.29803-r1_all.ipk
-Size: 59133
-SHA256sum: ab74c9a4b907602ad4bd9aa5d64c3ded554fe6bdd8d63eed24c79bc048f4aced
+Size: 59120
+SHA256sum: 41ca53e9a43534bfa9501f330c8d7b62c4dcf799ac16de2220eab41d24752f04
 Description:  FHEM Command help
 
 Package: fhem-mod-jsonlist2
@@ -111,8 +163,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 10240
 Filename: fhem-mod-jsonlist2_6.4.29803-r1_all.ipk
-Size: 3105
-SHA256sum: 27119280cad078691c4d0efae0fe53be0d02db11ba3d5effbbabcaadfdbd6b32
+Size: 3108
+SHA256sum: 65cd0b22fb1c5c96e95315482c2bb3c88c98c1ebdddbf5f22e8bf3ce96d8553d
 Description:  FHEM Command jsonlist2
 
 Package: fhem-mod-modbus
@@ -124,8 +176,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 286720
 Filename: fhem-mod-modbus_6.4.29803-r1_all.ipk
-Size: 66119
-SHA256sum: e194f4d4f4eba63ec72b595e9f1d8e40b0fb0810aa285bc36f50716a502ba3ce
+Size: 66126
+SHA256sum: 429ea754521be592016e0d500772690b42b93ebd12b17de816865013c53a1ca6
 Description:  FHEM Module Modbus
 
 Package: fhem-mod-modbusattr
@@ -137,9 +189,22 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 81920
 Filename: fhem-mod-modbusattr_6.4.29803-r1_all.ipk
-Size: 17873
-SHA256sum: 90d4d8dfe2632bcf71adc29bed6baa495bf172ac2d9d1f1610006fec258c8822
+Size: 17881
+SHA256sum: a776d4bfc8ac316f5eb8fa6b779a19ebea1d93bcd62ace81eb6710bde2411e7a
 Description:  FHEM Module ModbusAttr
+
+Package: fhem-mod-notify
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 40960
+Filename: fhem-mod-notify_6.4.29803-r1_all.ipk
+Size: 10444
+SHA256sum: 26779a626dbdbabee9b5826b25fda6c87ad0f7a630ad07a6db34e4541f5d4b8c
+Description:  FHEM Module notify
 
 Package: fhem-mod-obis
 Version: 6.4.29803-r1
@@ -150,9 +215,22 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-mod-obis_6.4.29803-r1_all.ipk
-Size: 15377
-SHA256sum: 8a292cb7333e8b417a1c38977f739c33a7a4d3516e2b39a94fd410503e096c87
+Size: 15376
+SHA256sum: 2a8e5d1081b94426ba987c3cf0fab3da9e3d3fc0ce34a29b92e1c6e58f922ec8
 Description:  FHEM Module OBIS
+
+Package: fhem-mod-sequence
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 20480
+Filename: fhem-mod-sequence_6.4.29803-r1_all.ipk
+Size: 4779
+SHA256sum: 5ecde80eff9c581c9f46291088b84d3ba2de7cce7ec83de57442b1ae74f282b1
+Description:  FHEM Module sequence
 
 Package: fhem-mod-telnet
 Version: 6.4.29803-r1
@@ -163,9 +241,22 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 30720
 Filename: fhem-mod-telnet_6.4.29803-r1_all.ipk
-Size: 8200
-SHA256sum: 91aa89f682286ed4f4a463240318bd303d261c326f72f94f32dc4010b7f9d2e9
+Size: 8209
+SHA256sum: 9b6b26315a26cd2003ffff7c8146dc2dda37d03be13d5f2ee495035323e0546c
 Description:  FHEM Telnet Service
+
+Package: fhem-mod-watchdog
+Version: 6.4.29803-r1
+Depends: libc, fhem-service
+License: GPL-2.0-or-later
+Section: fhem
+URL: https://fhem.de/
+Architecture: all
+Installed-Size: 30720
+Filename: fhem-mod-watchdog_6.4.29803-r1_all.ipk
+Size: 7078
+SHA256sum: 1fc32acbd4cf0cc6a084b6cccdb39efbcc54ed5f6541a9ef4f4cb0a55a8b26b6
+Description:  FHEM Module watchdog
 
 Package: fhem-service
 Version: 6.4.29803-r1
@@ -176,8 +267,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 174080
 Filename: fhem-service_6.4.29803-r1_all.ipk
-Size: 43803
-SHA256sum: 22deea4c6d867f349dc26bdc0ada1717e069d5105f406869c30bd45a3a755d7a
+Size: 43816
+SHA256sum: dccf386b672f1e1ba65613fb2034cb646cc57e25cab1e6a022895eb87217a717
 Description:  FHEM server for house automation
 
 Package: fhem-theme-pgm2-dark
@@ -189,8 +280,8 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-theme-pgm2-dark_6.4.29803-r1_all.ipk
-Size: 13910
-SHA256sum: 677620848bf61f533477cbb566a52216672af4ffb294faf0be840365d4ef932c
+Size: 13919
+SHA256sum: c78448c5db9673a7f918e07c4c64c3bbff7bcc781550ec2cdbdb95310bfad08e
 Description:  FHEMWEB Dark Theme
 
 Package: fhem-theme-pgm2-default
@@ -202,7 +293,7 @@ URL: https://fhem.de/
 Architecture: all
 Installed-Size: 51200
 Filename: fhem-theme-pgm2-default_6.4.29803-r1_all.ipk
-Size: 15612
-SHA256sum: aeb6b0e84e09f4af258f57a23875b8d7979aaac8d8d2b6ced989a50199e26f51
+Size: 15617
+SHA256sum: d2bc09c81f9adaad0a1601774331a19d49e0c29ef9590c86e4c5ec79a48b3526
 Description:  FHEMWEB Default Theme
 
