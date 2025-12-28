@@ -17,9 +17,19 @@ $(eval $(call BuildFHEMTheme,fhem-theme-pgm2-default,FHEMWEB Default Theme,,www/
 
 $(eval $(call BuildFHEMTheme,fhem-theme-pgm2-dark,FHEMWEB Dark Theme,,www/pgm2/darkstyle.css www/pgm2/darkCommon.css www/pgm2/dashboard_darkstyle.css www/pgm2/darksvg_style.css www/pgm2/darksvg_defs.svg www/images/default/fhemicon_dark.png))
 
+# From here? https://github.com/OpenAutomationProject/knx-uf-iconset
+$(eval $(call BuildFHEMTheme,fhem-icons-base,FHEM Base Icons,,--files-from openwrt/icons-base.txt .))
+$(eval $(call BuildFHEMTheme,fhem-icons-fhemsvg,FHEM SVG Icons,+fhem-icons-base,--exclude-from openwrt/icons-base.txt www/images/fhemSVG))
+$(eval $(call BuildFHEMTheme,fhem-icons-openautomation,FHEM OpenAutomation Icons,+fhem-icons-base,--exclude-from openwrt/icons-base.txt www/images/openautomation))
+
+
 $(eval $(call BuildFHEMModule,01,FHEMWEB,FHEMWEB Service,+perlbase-digest +fhem-theme-pgm2-default,www/pgm2/fhemweb.js www/pgm2/jquery.min.js www/pgm2/jquery-ui.min.js www/pgm2/jquery-ui.min.css www/images/default/favicon.ico))
 
 $(eval $(call BuildFHEMModule,47,OBIS))
+$(eval $(call BuildFHEMModule,90,at))
+$(eval $(call BuildFHEMModule,91,notify))
+$(eval $(call BuildFHEMModule,91,sequence))
+$(eval $(call BuildFHEMModule,91,watchdog))
 $(eval $(call BuildFHEMModule,92,FileLog))
 $(eval $(call BuildFHEMModule,98,DOIF,,+fhem-color))
 $(eval $(call BuildFHEMModule,98,JsonList2,FHEM Command jsonlist2))
